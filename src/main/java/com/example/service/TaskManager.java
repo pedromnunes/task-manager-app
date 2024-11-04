@@ -10,10 +10,15 @@ import com.example.repository.InMemoryTaskRepository;
 import com.example.repository.TaskRepository;
  
 public class TaskManager {
-    private final TaskRepository repository;
+    
+    public final TaskRepository repository;
  
     public TaskManager() {
         this.repository = new InMemoryTaskRepository();
+    }
+
+    public TaskRepository getTaskRepository(){
+        return repository;
     }
  
     public void adicionarTarefa(String titulo, String descricao, LocalDate dataConclusao) {

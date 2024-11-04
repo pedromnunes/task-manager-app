@@ -27,7 +27,6 @@ public class InMemoryTaskRepository implements TaskRepository {
 
     @Override
     public void remover(UUID id) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'remover'");
+        tasks.removeIf(task -> task.getId().equals(id));
     }
 }
