@@ -86,7 +86,7 @@ public class Task {
     @Override
     public String toString() {
         return "Task{" +
-        
+
                 "id=" + id +
                 ", titulo='" + titulo + '\'' +
                 ", descricao='" + descricao + '\'' +
@@ -97,7 +97,7 @@ public class Task {
     }
 
     //
-    enum Status {
+    public enum Status {
         PENDENTE,
         EM_PROGRESSO,
         CONCLUIDA
