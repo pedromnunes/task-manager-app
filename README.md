@@ -19,9 +19,9 @@ Um sistema em Java para criar, listar, atualizar e remover tarefas. Utiliza conc
  
 ## Estrutura do Projeto
  
-- **model/**: Modelos de dados (`Task.java`)
-- **repository/**: Repositórios de dados (`TaskRepository`, `InMemoryTaskRepository`)
-- **service/**: Lógica de negócios (`TaskManager`)
+- **model**: Modelos de dados (`Task.java`)
+- **repository**: Repositórios de dados (`TaskRepository`, `InMemoryTaskRepository`)
+- **service**: Lógica de negócios (`TaskManager`)
 - **TaskManagerAppApplication.java**: Entrada da aplicação
  
 ## Instalação e Execução
