@@ -6,13 +6,14 @@ import java.util.UUID;
 
 import com.example.model.Task;
 import com.example.model.Task.Status;
+import com.example.repository.InMemoryTaskRepository;
 import com.example.repository.TaskRepository;
  
 public class TaskManager {
     private final TaskRepository repository;
  
     public TaskManager() {
-        this.repository = new TaskRepository();
+        this.repository = new InMemoryTaskRepository();
     }
  
     public void adicionarTarefa(String titulo, String descricao, LocalDate dataConclusao) {
