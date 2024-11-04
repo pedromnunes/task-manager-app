@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.TaskManagerTest" time="0.136" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\upn03008\Desktop\Code Challenge 2024\task-manager-app\target\test-classes;C:\Users\upn03008\Desktop\Code Challenge 2024\task-manager-app\target\classes;C:\Users\upn03008\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\upn03008\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\upn03008\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\upn03008\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\upn03008\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\upn03008\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Lagos"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PT"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\upn03008\AppData\Local\Temp\surefire18062194824753749080\surefirebooter-20241105002656844_3.jar C:\Users\upn03008\AppData\Local\Temp\surefire18062194824753749080 2024-11-05T00-26-56_710-jvmRun1 surefire-20241105002656844_1tmp surefire_0-20241105002656844_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\upn03008\Desktop\Code Challenge 2024\task-manager-app\target\test-classes;C:\Users\upn03008\Desktop\Code Challenge 2024\task-manager-app\target\classes;C:\Users\upn03008\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\upn03008\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\upn03008\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\upn03008\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\upn03008\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\upn03008\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\upn03008"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-09-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\upn03008\Desktop\Code Challenge 2024\task-manager-app"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\upn03008\AppData\Local\Temp\surefire18062194824753749080\surefirebooter-20241105002656844_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17+35-LTS-2724"/>
+    <property name="user.name" value="upn03008"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\upn03008\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\upn03008\AppData\Local\Temp\"/>
+    <property name="java.version" value="17"/>
+    <property name="user.dir" value="C:\Users\upn03008\Desktop\Code Challenge 2024\task-manager-app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\PowerShell\7;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\IBM\Client Access\Emulator;C:\Program Files (x86)\IBM\Client Access\Shared;C:\Program Files (x86)\IBM\Client Access\;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\dotnet\;C:\Program Files\apache-maven-3.9.5-bin\bin;C:\Program Files\Go\bin;C:\ProgramData\chocolatey\bin;C:\Users\upn03008\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\upn03008\AppData\Local\Programs\Python\Python312\;C:\Users\upn03008\AppData\Local\Programs\Python\Launcher\;C:\Users\upn03008\AppData\Local\Microsoft\WindowsApps;C:\Users\upn03008\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\upn03008\AppData\Local\JetBrains\GoLand 2023.2\bin;;C:\Users\upn03008\go\bin;C:\Users\upn03008\.dotnet\tools;C:\Users\upn03008\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17+35-LTS-2724"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="atualizarTarefa_deveAtualizarDadosDaTarefa" classname="com.example.TaskManagerTest" time="0.111">
+    <system-out><![CDATA[Tarefa adicionada: Task{id=151307c3-8db0-4966-bcd1-deaaba8dcd3c, titulo='Tarefa Original', descricao='Descrição Original', dataCriacao=2024-11-05, dataConclusao=2024-11-06, status=PENDENTE}
+Tarefa atualizada: Task{id=151307c3-8db0-4966-bcd1-deaaba8dcd3c, titulo='Título Atualizado', descricao='Descrição Atualizada', dataCriacao=2024-11-05, dataConclusao=2024-11-07, status=EM_PROGRESSO}
+]]></system-out>
+  </testcase>
+  <testcase name="listarTarefas_deveRetornarTarefasOrdenadasPorDataCriacao" classname="com.example.TaskManagerTest" time="0.0">
+    <system-out><![CDATA[Tarefa adicionada: Task{id=e62e9491-4da9-4729-8c5b-19fc5f955cc8, titulo='Tarefa 1', descricao='Descricao 1', dataCriacao=2024-11-05, dataConclusao=2024-11-06, status=PENDENTE}
+Tarefa adicionada: Task{id=f35703b1-a476-48ce-b92c-80289ab0f3b4, titulo='Tarefa 2', descricao='Descricao 2', dataCriacao=2024-11-05, dataConclusao=2024-11-07, status=PENDENTE}
+]]></system-out>
+  </testcase>
+  <testcase name="removerTarefa_deveRemoverTarefaPorId" classname="com.example.TaskManagerTest" time="0.002">
+    <system-out><![CDATA[Tarefa adicionada: Task{id=cbc36bc6-4b86-4e74-b8a6-734c2b036480, titulo='Tarefa Removível', descricao='Descrição Removível', dataCriacao=2024-11-05, dataConclusao=2024-11-06, status=PENDENTE}
+Tarefa removida com ID: cbc36bc6-4b86-4e74-b8a6-734c2b036480
+]]></system-out>
+  </testcase>
+  <testcase name="adicionarTarefa_comDescricaoVazia_deveLancarExcecao" classname="com.example.TaskManagerTest" time="0.003"/>
+  <testcase name="adicionarTarefa_deveAdicionarNovaTarefa" classname="com.example.TaskManagerTest" time="0.002">
+    <system-out><![CDATA[Tarefa adicionada: Task{id=f774eeec-ce44-4f5f-8dd1-e9aa75a53f8a, titulo='Tarefa Teste', descricao='Descricao da tarefa teste', dataCriacao=2024-11-05, dataConclusao=2024-11-06, status=PENDENTE}
+]]></system-out>
+  </testcase>
+  <testcase name="adicionarTarefa_comDataConclusaoAnteriorDataCriacao_deveLancarExcecao" classname="com.example.TaskManagerTest" time="0.001"/>
+  <testcase name="listarTarefasPorStatus_deveRetornarApenasTarefasComStatusEspecifico" classname="com.example.TaskManagerTest" time="0.002">
+    <system-out><![CDATA[Tarefa adicionada: Task{id=aa38b074-3c74-4c6b-b684-6885f63b843d, titulo='Tarefa Pendente', descricao='Descrição Pendente', dataCriacao=2024-11-05, dataConclusao=2024-11-06, status=PENDENTE}
+Tarefa adicionada: Task{id=9209eb62-b589-4c33-8515-81971b8928ce, titulo='Tarefa Concluída', descricao='Descrição Concluída', dataCriacao=2024-11-05, dataConclusao=2024-11-07, status=PENDENTE}
+Tarefa atualizada: Task{id=9209eb62-b589-4c33-8515-81971b8928ce, titulo='Tarefa Concluída', descricao='Descrição Concluída', dataCriacao=2024-11-05, dataConclusao=2024-11-07, status=CONCLUIDA}
+]]></system-out>
+  </testcase>
+  <testcase name="adicionarTarefa_comTituloVazio_deveLancarExcecao" classname="com.example.TaskManagerTest" time="0.0"/>
+</testsuite>

@@ -14,13 +14,18 @@ public class Task {
     // Construtor, getters, setters e validações
     public Task(String titulo, String descricao, LocalDate dataConclusao) {
 
-        if (titulo == null || titulo.isEmpty() || descricao == null || descricao.isEmpty()) {
-            throw new IllegalArgumentException("Título e descrição não podem ser vazios.");
+        if (titulo == null || titulo.isEmpty()) {
+            throw new IllegalArgumentException("Titulo nao pode ser vazio.");
         }
+        
+        if (descricao == null || descricao.isEmpty()) {
+            throw new IllegalArgumentException("Descricao nao pode ser vazia.");
+        }
+        
 
         LocalDate hoje = LocalDate.now();
         if (dataConclusao != null && dataConclusao.isBefore(hoje)) {
-            throw new IllegalArgumentException("Data de conclusão não pode ser anterior à data de criação.");
+            throw new IllegalArgumentException("Data de conclusao nao pode ser anterior a data de criacao.");
         }
 
         this.id = UUID.randomUUID();
@@ -42,7 +47,7 @@ public class Task {
     public void setTitulo(String titulo) {
 
         if (titulo == null || titulo.isEmpty()) {
-            throw new IllegalArgumentException("Título não pode ser vazio.");
+            throw new IllegalArgumentException("Titulo nao pode ser vazio.");
         }
         this.titulo = titulo;
     }
@@ -54,7 +59,7 @@ public class Task {
     public void setDescricao(String descricao) {
 
         if (descricao == null || descricao.isEmpty()) {
-            throw new IllegalArgumentException("Descrição não pode ser vazia.");
+            throw new IllegalArgumentException("Descricao nao pode ser vazia.");
         }
         this.descricao = descricao;
     }
@@ -70,7 +75,7 @@ public class Task {
     public void setDataConclusao(LocalDate dataConclusao) {
 
         if (dataConclusao != null && dataConclusao.isBefore(this.dataCriacao)) {
-            throw new IllegalArgumentException("Data de conclusão não pode ser anterior à data de criação.");
+            throw new IllegalArgumentException("Data de conclusao nao pode ser anterior a data de criacao.");
         }
         this.dataConclusao = dataConclusao;
     }
