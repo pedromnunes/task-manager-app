@@ -3,6 +3,10 @@
 # Sistema de Gestão de Tarefas
  
 Um sistema em Java para criar, listar, atualizar e remover tarefas. Utiliza conceitos de POO e boas práticas de design de software.
+
+## Versão 
+
+Versão cujo repositorio é um ficheiro CSV.
  
 ## Funcionalidades
  
@@ -20,7 +24,7 @@ Um sistema em Java para criar, listar, atualizar e remover tarefas. Utiliza conc
 ## Estrutura do Projeto
  
 - **model**: Modelos de dados (`Task.java`)
-- **repository**: Repositórios de dados (`TaskRepository`, `InMemoryTaskRepository`)
+- **repository**: Repositórios de dados (`TaskRepository`, `CsvTaskRepository`)
 - **service**: Lógica de negócios (`TaskManager`)
 - **TaskManagerAppApplication.java**: Entrada da aplicação
  
