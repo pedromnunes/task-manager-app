@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.TaskManagerTest" time="0.136" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.TaskManagerTest" time="0.135" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PT"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\upn03008\AppData\Local\Temp\surefire18062194824753749080\surefirebooter-20241105002656844_3.jar C:\Users\upn03008\AppData\Local\Temp\surefire18062194824753749080 2024-11-05T00-26-56_710-jvmRun1 surefire-20241105002656844_1tmp surefire_0-20241105002656844_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\upn03008\AppData\Local\Temp\surefire13699858603261653189\surefirebooter-20241105132425647_3.jar C:\Users\upn03008\AppData\Local\Temp\surefire13699858603261653189 2024-11-05T13-24-25_479-jvmRun1 surefire-20241105132425647_1tmp surefire_0-20241105132425647_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\upn03008\Desktop\Code Challenge 2024\task-manager-app\target\test-classes;C:\Users\upn03008\Desktop\Code Challenge 2024\task-manager-app\target\classes;C:\Users\upn03008\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\upn03008\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\upn03008\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\upn03008\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\upn03008\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\upn03008\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\upn03008\AppData\Local\Temp\surefire18062194824753749080\surefirebooter-20241105002656844_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\upn03008\AppData\Local\Temp\surefire13699858603261653189\surefirebooter-20241105132425647_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17+35-LTS-2724"/>
@@ -56,32 +56,32 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="atualizarTarefa_deveAtualizarDadosDaTarefa" classname="com.example.TaskManagerTest" time="0.111">
-    <system-out><![CDATA[Tarefa adicionada: Task{id=151307c3-8db0-4966-bcd1-deaaba8dcd3c, titulo='Tarefa Original', descricao='Descrição Original', dataCriacao=2024-11-05, dataConclusao=2024-11-06, status=PENDENTE}
-Tarefa atualizada: Task{id=151307c3-8db0-4966-bcd1-deaaba8dcd3c, titulo='Título Atualizado', descricao='Descrição Atualizada', dataCriacao=2024-11-05, dataConclusao=2024-11-07, status=EM_PROGRESSO}
+  <testcase name="atualizarTarefa_deveAtualizarDadosDaTarefa" classname="com.example.TaskManagerTest" time="0.097">
+    <system-out><![CDATA[Tarefa adicionada: Task{id=36e022d6-c291-4de0-86dc-f7ba3fd45f62, titulo='Tarefa Original', descricao='Descrição Original', dataCriacao=2024-11-05, dataConclusao=2024-11-06, status=PENDENTE}
+Tarefa atualizada: Task{id=36e022d6-c291-4de0-86dc-f7ba3fd45f62, titulo='Título Atualizado', descricao='Descrição Atualizada', dataCriacao=2024-11-05, dataConclusao=2024-11-07, status=EM_PROGRESSO}
 ]]></system-out>
   </testcase>
-  <testcase name="listarTarefas_deveRetornarTarefasOrdenadasPorDataCriacao" classname="com.example.TaskManagerTest" time="0.0">
-    <system-out><![CDATA[Tarefa adicionada: Task{id=e62e9491-4da9-4729-8c5b-19fc5f955cc8, titulo='Tarefa 1', descricao='Descricao 1', dataCriacao=2024-11-05, dataConclusao=2024-11-06, status=PENDENTE}
-Tarefa adicionada: Task{id=f35703b1-a476-48ce-b92c-80289ab0f3b4, titulo='Tarefa 2', descricao='Descricao 2', dataCriacao=2024-11-05, dataConclusao=2024-11-07, status=PENDENTE}
+  <testcase name="listarTarefas_deveRetornarTarefasOrdenadasPorDataCriacao" classname="com.example.TaskManagerTest" time="0.001">
+    <system-out><![CDATA[Tarefa adicionada: Task{id=50164209-36b6-4c99-aaaf-e4d8e25514e2, titulo='Tarefa 1', descricao='Descricao 1', dataCriacao=2024-11-05, dataConclusao=2024-11-06, status=PENDENTE}
+Tarefa adicionada: Task{id=49496d85-a622-4d6c-91aa-f721378942cd, titulo='Tarefa 2', descricao='Descricao 2', dataCriacao=2024-11-05, dataConclusao=2024-11-07, status=PENDENTE}
 ]]></system-out>
   </testcase>
-  <testcase name="removerTarefa_deveRemoverTarefaPorId" classname="com.example.TaskManagerTest" time="0.002">
-    <system-out><![CDATA[Tarefa adicionada: Task{id=cbc36bc6-4b86-4e74-b8a6-734c2b036480, titulo='Tarefa Removível', descricao='Descrição Removível', dataCriacao=2024-11-05, dataConclusao=2024-11-06, status=PENDENTE}
-Tarefa removida com ID: cbc36bc6-4b86-4e74-b8a6-734c2b036480
+  <testcase name="removerTarefa_deveRemoverTarefaPorId" classname="com.example.TaskManagerTest" time="0.001">
+    <system-out><![CDATA[Tarefa adicionada: Task{id=85ab79f7-e5af-4669-b041-142aefd2b863, titulo='Tarefa Removível', descricao='Descrição Removível', dataCriacao=2024-11-05, dataConclusao=2024-11-06, status=PENDENTE}
+Tarefa removida com ID: 85ab79f7-e5af-4669-b041-142aefd2b863
 ]]></system-out>
   </testcase>
   <testcase name="adicionarTarefa_comDescricaoVazia_deveLancarExcecao" classname="com.example.TaskManagerTest" time="0.003"/>
-  <testcase name="adicionarTarefa_deveAdicionarNovaTarefa" classname="com.example.TaskManagerTest" time="0.002">
-    <system-out><![CDATA[Tarefa adicionada: Task{id=f774eeec-ce44-4f5f-8dd1-e9aa75a53f8a, titulo='Tarefa Teste', descricao='Descricao da tarefa teste', dataCriacao=2024-11-05, dataConclusao=2024-11-06, status=PENDENTE}
+  <testcase name="adicionarTarefa_deveAdicionarNovaTarefa" classname="com.example.TaskManagerTest" time="0.001">
+    <system-out><![CDATA[Tarefa adicionada: Task{id=e09a9734-4356-48bc-8416-ede353d711aa, titulo='Tarefa Teste', descricao='Descricao da tarefa teste', dataCriacao=2024-11-05, dataConclusao=2024-11-06, status=PENDENTE}
 ]]></system-out>
   </testcase>
   <testcase name="adicionarTarefa_comDataConclusaoAnteriorDataCriacao_deveLancarExcecao" classname="com.example.TaskManagerTest" time="0.001"/>
-  <testcase name="listarTarefasPorStatus_deveRetornarApenasTarefasComStatusEspecifico" classname="com.example.TaskManagerTest" time="0.002">
-    <system-out><![CDATA[Tarefa adicionada: Task{id=aa38b074-3c74-4c6b-b684-6885f63b843d, titulo='Tarefa Pendente', descricao='Descrição Pendente', dataCriacao=2024-11-05, dataConclusao=2024-11-06, status=PENDENTE}
-Tarefa adicionada: Task{id=9209eb62-b589-4c33-8515-81971b8928ce, titulo='Tarefa Concluída', descricao='Descrição Concluída', dataCriacao=2024-11-05, dataConclusao=2024-11-07, status=PENDENTE}
-Tarefa atualizada: Task{id=9209eb62-b589-4c33-8515-81971b8928ce, titulo='Tarefa Concluída', descricao='Descrição Concluída', dataCriacao=2024-11-05, dataConclusao=2024-11-07, status=CONCLUIDA}
+  <testcase name="listarTarefasPorStatus_deveRetornarApenasTarefasComStatusEspecifico" classname="com.example.TaskManagerTest" time="0.003">
+    <system-out><![CDATA[Tarefa adicionada: Task{id=debfb9a0-60a9-4b8e-a118-29d99d3d8937, titulo='Tarefa Pendente', descricao='Descrição Pendente', dataCriacao=2024-11-05, dataConclusao=2024-11-06, status=PENDENTE}
+Tarefa adicionada: Task{id=8e6ada49-cf88-49c9-941c-906a133c5df7, titulo='Tarefa Concluída', descricao='Descrição Concluída', dataCriacao=2024-11-05, dataConclusao=2024-11-07, status=PENDENTE}
+Tarefa atualizada: Task{id=8e6ada49-cf88-49c9-941c-906a133c5df7, titulo='Tarefa Concluída', descricao='Descrição Concluída', dataCriacao=2024-11-05, dataConclusao=2024-11-07, status=CONCLUIDA}
 ]]></system-out>
   </testcase>
-  <testcase name="adicionarTarefa_comTituloVazio_deveLancarExcecao" classname="com.example.TaskManagerTest" time="0.0"/>
+  <testcase name="adicionarTarefa_comTituloVazio_deveLancarExcecao" classname="com.example.TaskManagerTest" time="0.002"/>
 </testsuite>

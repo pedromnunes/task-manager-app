@@ -28,14 +28,14 @@ Um sistema em Java para criar, listar, atualizar e remover tarefas. Utiliza conc
  
 1. Clone o repositório:
    ```bash
-git clone https://github.com/pedromnunes/task-manager-app.git
-   cd seu-repositorio
+   git clone https://github.com/pedromnunes/task-manager-app.git
+   cd task-manager-app
    ```
  
 2. Compile e execute:
-   ```bash
+   ```
    mvn clean install
-   mvn exec:java -Dexec.mainClass="com.example.TaskManagerAppApplication"
+   mvn exec:java
    ```
  
 ## Testes

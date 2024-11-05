@@ -1,0 +1,6 @@
+com\example\model\Task$Status.class
+com\example\repository\TaskRepository.class
+com\example\TaskManagerAppApplication.class
+com\example\repository\InMemoryTaskRepository.class
+com\example\model\Task.class
+com\example\service\TaskManager.class
